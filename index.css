@@ -6,7 +6,9 @@
 body {
     font-family: 'Inter', sans-serif;
 }
- /* This is banner section style  */
+
+/* This is banner section style  */
+
 .banner-container {
     background-image: url("images/banner/banner1.png");
     background-repeat: no-repeat;
@@ -27,6 +29,7 @@ body {
     font-size: 65px;
     font-weight: 700;
 }
+
 .discription {
     color: #444343;
     text-align: right;
@@ -34,6 +37,7 @@ body {
     font-weight: 400;
     line-height: 26px;
 }
+
 .btn {
     width: 160px;
     height: 64px;
@@ -43,7 +47,50 @@ body {
     color: white;
     font-size: 18px;
 }
-.btn-box{
+
+.btn-box {
     float: right;
     margin-top: 15px;
+}
+
+/* This is my story style section  */
+
+.my-story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.story-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+}
+
+.story-discription {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-content {
+    width: 500px;
+
+}
+
+.failure-list {
+    list-style-type: square;
+}
+
+.failure-list li {
+    padding: 10px;
+}
+
+/* This is my plan section styles  */
+.plan-header {
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
 }
